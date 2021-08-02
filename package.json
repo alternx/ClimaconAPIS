@@ -1,15 +1,18 @@
 {
-  "name": "05-clima-mundo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "yargs": "^15.4.0"
-  }
+    "name": "05-clima-mundo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "colors": "^1.4.0",
+        "dotenv": "^10.0.0",
+        "inquirer": "^8.1.2",
+        "yargs": "^15.4.0"
+    }
 }
